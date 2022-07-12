@@ -1,0 +1,36 @@
+
+public class Test2 {
+
+	public static void main(String[] args) {
+
+
+		int num = 565;
+		Test2 test2 = new Test2();
+		System.out.println(test2.isPallindrome(num));
+		
+	}
+	
+	public boolean isPallindrome(int num) {
+		int mult = 1;
+		int new_num = 0;
+		while(num != 0) {
+			int rem = num%10;
+			System.out.println(rem);
+			new_num += rem * mult;
+			System.out.println(new_num);
+			num = num/10;
+			System.out.println("number after slashing:" + num);
+			mult = mult*10;
+			System.out.println(mult);
+		}
+		System.out.println("New number is:" + new_num);
+		
+		System.out.println(num);
+		System.out.println(new_num);
+		if(num == new_num) {
+			return true;
+		}
+		return false;
+	}
+
+}

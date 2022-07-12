@@ -1,0 +1,50 @@
+package com.dsa.ll_stack;
+
+import java.util.EmptyStackException;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Stack {
+
+	private List<Employee> stack;
+	private int top;
+
+	public Stack() {
+		stack = new LinkedList<Employee>();
+	}
+
+	public void push(Employee employee) {
+		stack.add(employee);
+	}
+
+	public Employee pop() {
+		int lastindex = stack.lastIndexOf(stack);
+		Employee emp = null;
+		if(lastindex != -1) {
+			emp = stack.remove(lastindex);
+		}
+		return emp;
+	}
+
+	public Employee peek() {
+		if(isEmpty()) {
+			throw new EmptyStackException();
+		}
+		return stack[top-1];
+	}
+
+	public int size() {
+		return top;
+	}
+
+	public void printStack() {
+		for(int i=top-1;i>=0;i--) {
+			System.out.println(stack[i]);
+		}
+	}
+
+	public boolean isEmpty() {
+		return top == 0;
+	}
+
+}

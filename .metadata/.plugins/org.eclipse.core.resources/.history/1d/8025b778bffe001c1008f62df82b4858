@@ -1,0 +1,12 @@
+package com.dsa.stack;
+
+public class Stack {
+	
+	private Employee[] stack;
+	private int top;
+
+	public Stack(int capacity) {}
+	
+	
+
+}

@@ -1,0 +1,23 @@
+package com.dsa.stack;
+
+public class Stack {
+	
+	private Employee[] stack;
+	private int top;
+
+	public Stack(int capacity) {
+		stack = new Employee[capacity];
+	}
+	
+	public void push(Employee employee) {
+		if(top == stack.length) {
+			Employee[] newArray = new Employee[2*stack.length];
+			System.arraycopy(stack, 0, newArray, 0, stack.length);
+			stack = newArray;
+		}
+		stack[top++] = employee;
+	}
+	
+	
+
+}

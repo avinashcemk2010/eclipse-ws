@@ -1,0 +1,35 @@
+package com.dsa.ll;
+
+public class EmployeeLinkList {
+	
+	private EmployeeNode head = null;
+	private EmployeeNode tail = null;
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	public void addNode(Employee emp) {
+		EmployeeNode employeeNode = new EmployeeNode();
+		employeeNode.setEmployee(emp);
+		employeeNode.setEmployeeNode(null);
+		
+		//add a node as first node
+		if(head == null) {
+			head = employeeNode;
+			tail = employeeNode;
+		} else {
+			tail.setEmployeeNode(employeeNode);
+		}
+	}
+	
+	public void display() {
+		EmployeeNode current = head;
+		while(current != null) {
+			System.out.println(current.getEmployee().toString());
+			current = current.getEmployeeNode();
+		}
+	}
+
+}

@@ -1,0 +1,30 @@
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		int num = 566;
+		Test2 test2 = new Test2();
+		System.out.println(test2.isPallindrome(num));
+		
+	}
+	
+	public boolean isPallindrome(int num) {
+		int original = num;
+		int mult = 1;
+		int new_num = 0;
+		while(num != 0) {
+			int rem = num%10;
+			new_num += rem * mult;
+			num = num/10;
+			mult = mult*10;
+		}
+		
+		System.out.println(new_num);
+		System.out.println(original);
+		if(original == new_num) {
+			return true;
+		}
+		return false;
+	}
+
+}

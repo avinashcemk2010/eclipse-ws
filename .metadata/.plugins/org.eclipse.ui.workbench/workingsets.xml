@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1654670498951_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1654670498958_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1655195755657_4" label="udemy-chad-darby" name="udemy-chad-darby">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hb-eager-vs-lazy-demo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-demo-annotations" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-mvc-demo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hb-02-one-to-one-bi" type="4"/>
+<item elementID="=hibernate-tutorial" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hb-04-one-to-many-uni" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/web-customer-tracker" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hb-01-one-to-one-uni" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-rest-demo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hb-03-one-to-many" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hb-05-many-to-many" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-demo-one" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-crm-rest" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1656484540361_7" label="spring-boot" name="spring-boot">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-data-jpa-demo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lombook-demo" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1656494341940_11" label="core-java" name="core-java">
+<item elementID="=Test" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1656934070177_11" label="spring-rest-demo" name="spring-rest-demo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-rest-demo" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1656998348924_10" label="spring-crm-rest-security-solution" name="spring-crm-rest-security-solution">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-crm-rest-security-solution" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1657112592838_11" label="DSA" name="DSA">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Sorting-algo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LinkList" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Stack" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Queue" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1654670502796_2" label="Window Working Set" name="Aggregate for window 1654670502796"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1656390986099_6" label="Multiple Working Sets" name="Aggregate:java-8-durgasoft:udemy-chad-darby:">
+<workingSet IMemento.internal.id="udemy-chad-darby"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1656484648171_10" label="Multiple Working Sets" name="Aggregate:spring-boot:udemy-chad-darby:">
+<workingSet IMemento.internal.id="spring-boot"/>
+<workingSet IMemento.internal.id="udemy-chad-darby"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1656998500186_12" label="Multiple Working Sets" name="Aggregate:core-java:spring-boot:udemy-chad-darby:">
+<workingSet IMemento.internal.id="core-java"/>
+<workingSet IMemento.internal.id="spring-boot"/>
+<workingSet IMemento.internal.id="udemy-chad-darby"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1657112596507_12" label="Multiple Working Sets" name="Aggregate:core-java:DSA:spring-boot:udemy-chad-darby:">
+<workingSet IMemento.internal.id="core-java"/>
+<workingSet IMemento.internal.id="DSA"/>
+<workingSet IMemento.internal.id="spring-boot"/>
+<workingSet IMemento.internal.id="udemy-chad-darby"/>
+</workingSet>
+<mruList name="DSA"/>
+<mruList name="udemy-chad-darby"/>
+</workingSetManager>

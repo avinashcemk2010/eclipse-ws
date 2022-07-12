@@ -1,0 +1,17 @@
+package com.dsa.ll;
+
+public class EmployeeLinkList {
+	
+	private EmployeeNode head = null;
+	private EmployeeNode tail = null;
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	public static void addNode(Employee emp) {
+		
+	}
+
+}

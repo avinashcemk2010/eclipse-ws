@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Tue Jul 05 10:43:51 IST 2022
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\avina\\.m2\\repository\\org\\springframework\\spring-web\\5.0.6.RELEASE\\spring-web-5.0.6.RELEASE.jar=WEB-INF/lib/spring-web-5.0.6.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\eclipse-ws\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.3.8-sources.jar=WEB-INF/lib/spring-web-5.3.8-sources.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\eclipse-ws\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.3.8.jar=WEB-INF/lib/spring-web-5.3.8.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\eclipse-ws\\web-customer-tracker\\webContent\\WEB-INF\\lib\\spring-web-5.3.8-sources.jar=WEB-INF/lib/spring-web-5.3.8-sources.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\eclipse-ws\\web-customer-tracker\\webContent\\WEB-INF\\lib\\spring-web-5.3.8.jar=WEB-INF/lib/spring-web-5.3.8.jar

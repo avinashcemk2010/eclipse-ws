@@ -1,0 +1,27 @@
+package com.luv2code.springdemo.dao;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.luv2code.springdemo.entity.Customer;
+
+public class CustomerDaoImpl implements CustomerDao {
+	
+	@Autowired
+	private SessionFactory factory;
+
+	@Override
+	@Transactional
+	public List<Customer> getCustomers() {
+		Session currentSession = factory.getCurrentSession();
+		Query<Customer> theQuery = 
+				currentSession.createQuery("from Customer", Customer.class);
+	}
+
+}

@@ -1,0 +1,48 @@
+package com.dsa.doublelinklist;
+
+public class EmployeeLinkList {
+	
+	private Employee employee;
+	private EmployeeLinkList next;
+	private EmployeeLinkList previous;
+	
+	public EmployeeLinkList() {
+	}
+
+	public EmployeeLinkList(Employee employee, EmployeeLinkList next, EmployeeLinkList previous) {
+		super();
+		this.employee = employee;
+		this.next = next;
+		this.previous = previous;
+	}
+
+	public Employee getEmployee() {
+		return employee;
+	}
+
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
+	}
+
+	public EmployeeLinkList getNext() {
+		return next;
+	}
+
+	public void setNext(EmployeeLinkList next) {
+		this.next = next;
+	}
+
+	public EmployeeLinkList getPrevious() {
+		return previous;
+	}
+
+	public void setPrevious(EmployeeLinkList previous) {
+		this.previous = previous;
+	}
+
+	@Override
+	public String toString() {
+		return "EmployeeLinkList [employee=" + employee + ", next=" + next + ", previous=" + previous + "]";
+	}
+	
+}
